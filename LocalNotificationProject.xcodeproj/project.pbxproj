@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FC597DD14E7E6450039736E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC597DC14E7E6450039736E /* UIKit.framework */; };
+		8FC597DF14E7E6450039736E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC597DE14E7E6450039736E /* Foundation.framework */; };
+		8FC597E114E7E6450039736E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC597E014E7E6450039736E /* CoreGraphics.framework */; };
+		8FC597E714E7E6450039736E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FC597E514E7E6450039736E /* InfoPlist.strings */; };
+		8FC597E914E7E6450039736E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC597E814E7E6450039736E /* main.m */; };
+		8FC597ED14E7E6450039736E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC597EC14E7E6450039736E /* AppDelegate.m */; };
+		8FC597F014E7E6450039736E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC597EE14E7E6450039736E /* MainStoryboard.storyboard */; };
+		8FC597F314E7E6450039736E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC597F214E7E6450039736E /* ViewController.m */; };
+		8FC597FB14E7EDC10039736E /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC597FA14E7EDC10039736E /* ToDoItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8FC597D814E7E6450039736E /* LocalNotificationProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalNotificationProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC597DC14E7E6450039736E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8FC597DE14E7E6450039736E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8FC597E014E7E6450039736E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8FC597E414E7E6450039736E /* LocalNotificationProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalNotificationProject-Info.plist"; sourceTree = "<group>"; };
+		8FC597E614E7E6450039736E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8FC597E814E7E6450039736E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FC597EA14E7E6450039736E /* LocalNotificationProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocalNotificationProject-Prefix.pch"; sourceTree = "<group>"; };
+		8FC597EB14E7E6450039736E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8FC597EC14E7E6450039736E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8FC597EF14E7E6450039736E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8FC597F114E7E6450039736E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8FC597F214E7E6450039736E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8FC597F914E7EDC10039736E /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		8FC597FA14E7EDC10039736E /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FC597D514E7E6450039736E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC597DD14E7E6450039736E /* UIKit.framework in Frameworks */,
+				8FC597DF14E7E6450039736E /* Foundation.framework in Frameworks */,
+				8FC597E114E7E6450039736E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FC597CD14E7E6450039736E = {
+			isa = PBXGroup;
+			children = (
+				8FC597E214E7E6450039736E /* LocalNotificationProject */,
+				8FC597DB14E7E6450039736E /* Frameworks */,
+				8FC597D914E7E6450039736E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FC597D914E7E6450039736E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FC597D814E7E6450039736E /* LocalNotificationProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FC597DB14E7E6450039736E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FC597DC14E7E6450039736E /* UIKit.framework */,
+				8FC597DE14E7E6450039736E /* Foundation.framework */,
+				8FC597E014E7E6450039736E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FC597E214E7E6450039736E /* LocalNotificationProject */ = {
+			isa = PBXGroup;
+			children = (
+				8FC597EB14E7E6450039736E /* AppDelegate.h */,
+				8FC597EC14E7E6450039736E /* AppDelegate.m */,
+				8FC597EE14E7E6450039736E /* MainStoryboard.storyboard */,
+				8FC597F114E7E6450039736E /* ViewController.h */,
+				8FC597F214E7E6450039736E /* ViewController.m */,
+				8FC597F914E7EDC10039736E /* ToDoItem.h */,
+				8FC597FA14E7EDC10039736E /* ToDoItem.m */,
+				8FC597E314E7E6450039736E /* Supporting Files */,
+			);
+			path = LocalNotificationProject;
+			sourceTree = "<group>";
+		};
+		8FC597E314E7E6450039736E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FC597E414E7E6450039736E /* LocalNotificationProject-Info.plist */,
+				8FC597E514E7E6450039736E /* InfoPlist.strings */,
+				8FC597E814E7E6450039736E /* main.m */,
+				8FC597EA14E7E6450039736E /* LocalNotificationProject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FC597D714E7E6450039736E /* LocalNotificationProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC597F614E7E6450039736E /* Build configuration list for PBXNativeTarget "LocalNotificationProject" */;
+			buildPhases = (
+				8FC597D414E7E6450039736E /* Sources */,
+				8FC597D514E7E6450039736E /* Frameworks */,
+				8FC597D614E7E6450039736E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalNotificationProject;
+			productName = LocalNotificationProject;
+			productReference = 8FC597D814E7E6450039736E /* LocalNotificationProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FC597CF14E7E6450039736E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8FC597D214E7E6450039736E /* Build configuration list for PBXProject "LocalNotificationProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8FC597CD14E7E6450039736E;
+			productRefGroup = 8FC597D914E7E6450039736E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FC597D714E7E6450039736E /* LocalNotificationProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FC597D614E7E6450039736E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC597E714E7E6450039736E /* InfoPlist.strings in Resources */,
+				8FC597F014E7E6450039736E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FC597D414E7E6450039736E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC597E914E7E6450039736E /* main.m in Sources */,
+				8FC597ED14E7E6450039736E /* AppDelegate.m in Sources */,
+				8FC597F314E7E6450039736E /* ViewController.m in Sources */,
+				8FC597FB14E7EDC10039736E /* ToDoItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8FC597E514E7E6450039736E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FC597E614E7E6450039736E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8FC597EE14E7E6450039736E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FC597EF14E7E6450039736E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FC597F414E7E6450039736E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8FC597F514E7E6450039736E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FC597F714E7E6450039736E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalNotificationProject/LocalNotificationProject-Prefix.pch";
+				INFOPLIST_FILE = "LocalNotificationProject/LocalNotificationProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8FC597F814E7E6450039736E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalNotificationProject/LocalNotificationProject-Prefix.pch";
+				INFOPLIST_FILE = "LocalNotificationProject/LocalNotificationProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FC597D214E7E6450039736E /* Build configuration list for PBXProject "LocalNotificationProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC597F414E7E6450039736E /* Debug */,
+				8FC597F514E7E6450039736E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FC597F614E7E6450039736E /* Build configuration list for PBXNativeTarget "LocalNotificationProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC597F714E7E6450039736E /* Debug */,
+				8FC597F814E7E6450039736E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FC597CF14E7E6450039736E /* Project object */;
+}
